@@ -25,7 +25,7 @@ jobs:
       ARM_TENANT_ID="8d6957bd-a49b-421f-bd5c-05e6f1d72f85"
       ARM_CLIENT_ID="631b4f12-4984-445b-9248-98942d72ab46"
       ARM_CLIENT_SECRET=${{ secrets.ARM_CLIENT_SECRET }}
-      AZURE_STORAGE: 'tfdemo5810256560'
+      AZURE_STORAGE='tfdemo5810256560'
 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
